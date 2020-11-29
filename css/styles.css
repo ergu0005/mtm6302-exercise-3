@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+}
+
+body {
+  font-family: roboto;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#root {
+  max-width: 600px;
+  text-align: left;
+  margin: 0px auto;
+  margin-top: 48px;
+  padding: 16px;
+  height: 100vh;
+}
+#form {
+  padding: 16px;
+}
+
+#countdown {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#countdown .values {
+  font-size: 38px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#countdown h2 {
+  font-size: 64px;
+  word-break: break-all;
+  text-align: center;
+}
+
+#formContainer {
+  display: none;
+  border: 1px solid #ced4da;
+}
+
+#formContainer .form-header {
+  border-bottom: 1px solid #ced4da;
+  padding: 16px;
+  background-color: rgb(246, 246, 246);
+}
+
+#formContainer h2 {
+  font-size: 24px;
+  margin: 0;
+}
+#formContainer p {
+  margin: 0;
+}
